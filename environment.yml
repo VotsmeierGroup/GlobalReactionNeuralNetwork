@@ -1,0 +1,12 @@
+name: grnn-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core language + essential libraries
+  - python=3.9
+  - numpy
+  - ipython
+  - jupyter
+  - matplotlib
+  - pytorch-cpu=2.5.1
